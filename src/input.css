@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+body{
+    background: linear-gradient(180deg,#106EBE,white);
+    min-height: 100vh;
+}
+
+form{
+    background: linear-gradient(0deg,#0ffcbe,white);
+    min-height: 500px;
+    overflow:visible;
+}
+
+button{
+    padding:14px 26px;
+    border:none;
+    border-radius:40px;
+    background:linear-gradient(135deg,#106ebe,black);
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+    box-shadow:0 8px 20px rgba(255,107,154,.35);
+}
+button:hover{
+    transform:scale(1.08);
+}
