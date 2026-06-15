@@ -1,4 +1,6 @@
-@import "tailwindcss";
+
+@import "tailwindcss/preflight";
+@tailwind utilities;
 
 body{
     background: linear-gradient(180deg,#106EBE,white);
