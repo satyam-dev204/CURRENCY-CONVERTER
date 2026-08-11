@@ -1,11 +1,13 @@
 {
   "name": "currency-converter",
   "version": "1.0.0",
-  "dependencies": {
-    "tailwindcss": "^4.2.1"
-  },
   "scripts": {
-  "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.2.1",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
+  }
 }
 
-}
