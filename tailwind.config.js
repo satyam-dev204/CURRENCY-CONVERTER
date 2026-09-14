@@ -1,6 +1,6 @@
 // tailwind.config.js
 module.exports = {
-  content: ["./src/*.html"],   // since your index.html is inside src
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
   },
