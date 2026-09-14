@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "node ./scripts/dev.mjs",
-    "build": "node ./scripts/build.mjs && tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "build": "node ./scripts/build.mjs && node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./src/input.css -o ./dist/output.css --minify"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.3",
